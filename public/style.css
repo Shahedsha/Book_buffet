@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.navbar {
+    background-color: #faf8f8;
+    position: relative;
+    flex:content;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+background: rgb(255, 255, 255);
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: rgb(10, 0, 0);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+    position: absolute;
+    display: none;
+    background: #fff;
+    margin-top: -1px;
+}
+
+.navbar ul ul li {
+    display: block;
+
+}
+
+.navbar li:hover ul {
+    display:block;
+}
+.navbar #sha :hover ul{
+    display: none;
+}
+
+/* #mydiv .a{
+  font-size: medium;
+  font-weight: 800;
+} */
+
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+    background-color:rgb(252, 253, 255);
+}
+.header-phone .icon {
+    font-size: 34px;
+    color: #62ab00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 15px;
+  }
+  .header-phone p {
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .header-phone p:last-child {
+    margin-bottom: 0;
+  }
+  .header-phone p.number {
+    font-weight: 700;
+    color: #333;
+  }
+  .header-phone.color-white .icon {
+    color: #fff;
+  }
+  .icon i {
+    font-size: inherit;
+  }
+  .header-search-block {
+    position: initial;
+  }
+  .header-search-block input {
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    height: 52px;
+    float: none;
+    font-weight: 400;
+    background: #fff;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    padding: 0 125px 0 20px;
+  }
+  .header-search-block input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .header-search-block button {
+    position: initial;
+    top: 0;
+    right: 0;
+    background: #62ab00;
+    border: 0;
+    line-height: 52px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 35px;
+    color: #fff;
+    border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+                    
